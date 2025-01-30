@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <object id="audio" data="http://192.168.0.143:8001">
+        <embed src="http://192.168.0.143:8001"> </embed>
+        Error: Embedded data could not be displayed.
+    </object>
+    <object id="light" data="http://192.168.0.143:5000">
+        <embed src="http://192.168.0.143:5000"> </embed>
+        Error: Embedded data could not be displayed.
+    </object>
+
+    <div id="overlay-button" onclick="openFullscreen()">
+        <img id="fullscreen-icon" src="images/fullscreen-svgrepo-com.png" alt="">
+    </div>
+    
+    <script src="js/scripts.js" ></script>
+</body>
+</html>

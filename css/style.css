@@ -1,0 +1,45 @@
+html body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+object {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+#audio {
+    width: 80vw;
+}
+
+#light {
+    width: 18vw;
+}
+
+#overlay-button {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    color: white;
+    right: 50px;
+    bottom: 20px;
+    background-color: rgb(34, 0, 66);
+    border-radius: 5px;
+}
+
+#fullscreen-icon {
+    width: 30px;
+    height: auto;
+}
+
+#overlay-button:hover {
+    cursor: pointer;
+}
